@@ -1,8 +1,16 @@
-.banniere {
-    padding: 400px;
-    background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/krampus.png');
-    background-size: 100% 100%;
+body {
+    background-color: black;
+}
 
+.banniere {
+    padding: 200px;
+    background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/TEST/01.png');
+    background-size: 100% 100%;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
