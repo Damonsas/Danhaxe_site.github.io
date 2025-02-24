@@ -1,26 +1,66 @@
 body {
-    background-color: black;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 66%, rgba(204,51,51,1) 100%); 
+}
+   
+.nav-link li { 
+    list-style-type: none;
+    padding-left: 30px;
+}  
+.nav-link {
+    display: inline;
+    text-align: center;
 }
 
 .banniere {
-    padding: 200px;
-    background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/TEST/01.png');
-    background-size: 100% 100%;
+    padding: 50px;
+    background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/03.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
-p{
-    color: white;
+.Art {
+    width: 500px;
+            height: 300px;
+            background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/etn animation.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 2px solid #ccc;
+            
+}
+
+
+h3 {
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color:white;
-    font-size: 48px;
+    font-size: 78px;
     text-align: center;
-    text-shadow: 10px;
+} 
+p {
+    color: #330000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+
 }
 li {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
+    font-size: 29px;
+    color: black;
 }
