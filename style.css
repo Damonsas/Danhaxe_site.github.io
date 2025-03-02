@@ -11,12 +11,16 @@ body {
     display: inline;
     text-align: center;
 }
-ul{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+a {
     font-size: 40px;
-}
+  text-decoration: none;
+  font-family: Arial;
+  color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
 
+}
 .banniere {
     padding: 50px;
     background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/03.jpg');
