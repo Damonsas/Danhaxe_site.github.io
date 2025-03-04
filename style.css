@@ -33,7 +33,7 @@ a {
 .Art {
     width: 800px;
             height: 600px;
-            background-image: url(../pages/ressource/img/02.jpg);
+            background-image: url(02.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border: 2px solid #ccc;
