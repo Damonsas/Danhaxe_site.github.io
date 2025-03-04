@@ -31,8 +31,8 @@ a {
 }
 
 .Art {
-    width: 500px;
-            height: 300px;
+    width: 800px;
+            height: 600px;
             background-image: url(../pages/ressource/img/02.jpg);
             background-size: cover;
             background-repeat: no-repeat;
