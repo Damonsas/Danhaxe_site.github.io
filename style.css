@@ -83,9 +83,6 @@ h3 {
     font-size: 25px;
 }
 
-
-
-
 li {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,3 +90,7 @@ li {
     color: black;
 }
 
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
