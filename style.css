@@ -93,4 +93,6 @@ li {
 article{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    text-justify: newspaper;
+    text-align: center;
 }
