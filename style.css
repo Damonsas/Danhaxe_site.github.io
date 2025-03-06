@@ -11,8 +11,8 @@ body {
     display: inline;
     text-align: center;
 }
-a {
-    font-size: 40px;
+.nav-link a {
+  font-size: 40px;
   text-decoration: none;
   font-family: Arial;
   color: white;
@@ -21,8 +21,26 @@ a {
   background-color: rgb(255, 85, 0);
   border-radius: 8px;
   text-align: center;
+  
 
 }
+footer div {
+    width: 100%;
+        height: 200px;
+        background-color: black;
+}
+
+.lien a {
+        background-image: url(github-mark-white.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 60px; 
+        background-position-x: center;
+
+}
+
+
 .banniere {
     padding: 50px;
     background-image: url(03.jpg);
@@ -32,7 +50,7 @@ a {
 }
 
 .Art {
-    width: 800px;
+    width: 100%;
             height: 600px;
             background-image: url(02.jpg);
             background-size: cover;
@@ -75,7 +93,3 @@ li {
     color: black;
 }
 
-.lien {
-    display: inline;
-    text-align: center;
-}

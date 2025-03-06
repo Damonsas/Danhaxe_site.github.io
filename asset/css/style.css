@@ -11,29 +11,48 @@ body {
     display: inline;
     text-align: center;
 }
-a {
-    font-size: 40px;
+.nav-link a {
+  font-size: 40px;
   text-decoration: none;
   font-family: Arial;
   color: white;
   padding: 10px;
   border: 2px solid black;
-  background-color: orange;
+  background-color: rgb(255, 85, 0);
   border-radius: 8px;
+  text-align: center;
+  
 
 }
+footer div {
+    width: 100%;
+        height: 200px;
+        background-color: black;
+}
+
+.lien a {
+        background-image: url(github-mark-white.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 60px; 
+        background-position-x: center;
+
+}
+
+
 .banniere {
     padding: 50px;
-    background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/test_code/Danhaxe_site/03.jpg');
+    background-image: url(03.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
 .Art {
-    width: 500px;
-            height: 300px;
-            background-image: url('file:///C:/Users/danhk/OneDrive/Bureau/dessin/etn animation.gif');
+    width: 100%;
+            height: 600px;
+            background-image: url(02.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border: 2px solid #ccc;
@@ -73,3 +92,4 @@ li {
     font-size: 29px;
     color: black;
 }
+
