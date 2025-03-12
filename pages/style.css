@@ -5,7 +5,7 @@ body {
    
 .nav-link li { 
     list-style-type: none;
-    padding-left: 30px;
+    padding-left: 30px; 
 }  
 .nav-link {
     display: inline;
@@ -31,7 +31,7 @@ footer div {
 }
 
 .lien a {
-        background-image: url(github-mark-white.png);
+        background-image: url(../ressource/github-mark-white.png);
         background-size: 40px;
         background-repeat: no-repeat;
         background-position: center;
@@ -39,6 +39,17 @@ footer div {
         background-position-x: center;
 
 }
+
+.competence h3{
+    list-style-type: none;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.competence li{
+    display: block;
+}
+
 
 
 .banniere {
@@ -74,7 +85,7 @@ h2 {
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 29px;
     font-weight: lighter;
 
 }    p {
@@ -86,8 +97,9 @@ h3 {
 li {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 29px;
+    font-size: 20px;
     color: black;
+    font-weight: lighter;
 }
 
  .krampus { 
