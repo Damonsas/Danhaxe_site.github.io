@@ -42,7 +42,7 @@ footer div {
 
 
 .banniere {
-    padding: 50px;
+    /* padding: 50px; */
     background-image: url(03.jpg);
     background-size: cover;
     background-position: center;
@@ -105,4 +105,11 @@ article{
     font-size: 15px;
     text-justify: newspaper;
     text-align: center;
+}
+
+.dessin div {
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    border: 2px solid black;
 }
