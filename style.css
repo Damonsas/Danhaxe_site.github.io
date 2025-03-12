@@ -52,7 +52,7 @@ footer div {
 .Art {
     width: 100%;
             height: 600px;
-            background-image: url(/ressource/img/krampus.jpg);
+            background-image: url(/ressource/img/mouton.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border: 2px solid #ff4a03;
@@ -90,10 +90,10 @@ li {
     color: black;
 }
 
-/* .krampus img { 
+.krampus { 
      width: 200px; 
-     height: 350px; 
-  }  */
+    height: 350px; 
+  }   
 
 .dessin{
     width: 200px;
