@@ -90,7 +90,7 @@ li {
     color: black;
 }
 
-img {
+.krampus img {
     width: 200px;
     height: 350px;
 }
@@ -102,9 +102,3 @@ article{
     text-align: center;
 }
 
-.dessin div {
-    width: 200px;
-    height: 350px;
-    padding: 10px;
-    border: 2px solid black;
-}
