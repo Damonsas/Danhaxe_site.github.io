@@ -42,7 +42,7 @@ footer div {
 
 
 .banniere {
-    /* padding: 50px; */
+    padding: 50px;
     background-image: url(03.jpg);
     background-size: cover;
     background-position: center;
