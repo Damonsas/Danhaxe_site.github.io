@@ -145,6 +145,14 @@ h3 {
     margin-left: 3%;
 }
 
+.cv h2{
+    padding: 10px 20px;
+    background-color: #ff5500;
+    color: white;
+    border-radius: 4px;
+    max-width: max-content;
+}
+
 
 img {
      max-width: 100%;
