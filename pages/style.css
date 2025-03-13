@@ -74,6 +74,10 @@ footer {
 
 } 
 
+h2 {
+    clear: both;
+}
+
 
 .banniere {
     padding: 50px;
