@@ -53,6 +53,11 @@ footer div {
     float: left;
     
 }
+
+footer {
+    clear: both;
+}
+
 .banniere {
     padding: 50px;
     background-image: url(./ressource/img/03.jpg);
