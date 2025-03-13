@@ -21,7 +21,7 @@ body {
   color: white;
   padding: 10px;
   border: 2px solid black;
-  background-color: rgb(255, 85, 0);
+  background-color: #ff5500;
   border-radius: 8px;
   text-align: center;
   
@@ -72,7 +72,7 @@ footer {
             background-image: url(./ressource/img/krampus.png);
             background-size: cover;
             background-repeat: no-repeat;
-            border: 2px solid #ff4a03;
+            border: 2px solid #ff5500;
             opacity: 80%;
             
 }
