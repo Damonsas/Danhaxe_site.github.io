@@ -33,24 +33,30 @@ footer div {
         background-color: black;
 }
 
-.lien a {
-        background-image: url(../ressource/github-mark-white.png);
-        background-size: 40px;
-        background-repeat: no-repeat;
-        background-position: left;
-        padding: 60px;
-        /* background-position-x: center; */
 
+.github{
+    background-image: url(../ressource/github-mark-white.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    float: inline-start;
+    
 }
 
+.linkedin{
+    background-image: url(../ressource/linkedin.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    float: left;
+    
+}
 footer {
     clear: both;
 }
 
-/* .competence h3{
-    list-style-type: none;
-    padding-left: 30px; */
-    
     
 
 
