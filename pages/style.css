@@ -57,23 +57,34 @@ footer {
     clear: both;
 }
 
-    
-
+.sep {
+    background-color: rgb(55, 1, 71);
+    background: linear-gradient(180deg,rgb(55, 1, 71), #ff5500 100% ) ;
+}
 
 .competence li{
     display: block;
+    color: #ffffff;
 } 
 .t{
     float: inline-start;
     margin-right: 10px;
+    color: #ffffff;
     
 } 
  .s {
     float: left;
     margin-left: 10px;
-
+    color: #ffffff;
 } 
 
+.competence h2 {
+    color: #ffffff;
+}
+
+.competence h3{
+    color: #ffffff;
+}
 h2 {
     clear: both;
 }
