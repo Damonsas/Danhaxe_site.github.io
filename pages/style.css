@@ -65,11 +65,13 @@ footer {
 .competence li{
     display: block;
     color: #ffffff;
+    font-size: 20px;
 } 
 .t{
     float: inline-start;
     margin-right: 10px;
     color: #ffffff;
+    
     
 } 
  .s {
@@ -77,6 +79,7 @@ footer {
     margin-left: 10px;
     color: #ffffff;
 } 
+
 
 .competence h2 {
     color: #ffffff;
@@ -88,7 +91,21 @@ footer {
 h2 {
     clear: both;
 }
+.commissions{
+    text-align: center;
+    margin-top: 10px;
+}
+.commissions p{
+    padding: 10px 20px;
+    background-color: #ff5500;
+    color: white;
+    border-radius: 5px;
+    margin-right: 40px;
+}
 
+.commissions h2{
+    color: #46004b;
+}
 
 .banniere {
     padding: 50px;
@@ -134,11 +151,13 @@ h3 {
     font-size: 25px;
     margin-left: 2%;
 }
-
+li{
+    font-size: 25px;
+}
 .cv li {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     font-weight: lighter;
     display: block;
@@ -189,7 +208,7 @@ img {
         }
         .slide-img {
          width: 100%;
-        height: 600px;
+        height: 650px;
         position: absolute;
         top: 0;
         left: 100%;
@@ -200,7 +219,53 @@ img {
         left: 0;
         z-index: 100;
         transition: left 0.65s ease-out;
-         } 
+         }
+         
+         
+         .kslider-container {
+            max-width: 600px;
+            position: relative;
+            margin: auto;
+            height: 700px;
+            overflow: hidden;
+           }
+           .kmenu {
+            position: absolute;
+            left: 0;
+            z-index: 11;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+           }
+           .kmenu label {
+           cursor: pointer;
+           display: inline-block;
+           width: 10px;
+           height: 10px;
+           background: #ccc;
+           border-radius: 50px;
+           margin: 0 0.2em 1em;
+           }
+           .kmenu label:hover,.menu label:focus {
+            background: #ff5500;
+           }
+            .kslide-input{
+            opacity: 0;
+           }
+           .krampus {
+            width: 100%;
+           height: 600px;
+           position: absolute;
+           top: 0;
+           left: 100%;
+           z-index: 10;
+           transition: left 0s 0.75s;
+            }
+           [id^="kslide"]:checked + .krampus {
+           left: 0;
+           z-index: 100;
+           transition: left 0.65s ease-out;
+            }
 
  .contact-form {
     padding: 40px 0;
