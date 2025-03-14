@@ -3,7 +3,7 @@ body {
     min-height: 100%;
     width: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 66%, rgba(204,51,51,1) 100%); 
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%,#ff5500 100%); 
 }
    
 .nav-link li { 
@@ -201,11 +201,6 @@ img {
         z-index: 100;
         transition: left 0.65s ease-out;
          } 
-
- .krampus { 
-     width: 300px;; 
-     height: 500px; 
- }
 
  .contact-form {
     padding: 40px 0;
