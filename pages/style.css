@@ -172,7 +172,7 @@ li{
     max-width: max-content;
 }
 
-
+/* page commissions */
 img {
      max-width: 100%;
     }   
@@ -267,6 +267,8 @@ img {
            transition: left 0.65s ease-out;
             }
 
+
+/* page conctat             */
  .contact-form {
     padding: 40px 0;
     margin: 0 10px;
