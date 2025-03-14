@@ -60,6 +60,7 @@ footer {
 .sep {
     background-color: rgb(55, 1, 71);
     background: linear-gradient(180deg,rgb(55, 1, 71), #ff5500 100% ) ;
+    padding-bottom: 30px;
 }
 
 .competence li{
@@ -83,6 +84,7 @@ footer {
 
 .competence h2 {
     color: #ffffff;
+    padding: 5px;
 }
 
 .competence h3{
@@ -90,6 +92,7 @@ footer {
 }
 h2 {
     clear: both;
+
 }
 .commissions{
     text-align: center;
@@ -154,6 +157,7 @@ h3 {
 li{
     font-size: 25px;
 }
+
 .cv li {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -169,7 +173,20 @@ li{
     background-color: #ff5500;
     color: white;
     border-radius: 4px;
-    max-width: max-content;
+    margin-right: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+
+    /* max-width: max-content; */
+}
+
+.cv h3{
+    padding: 5px 10px;
+    background-color: #46004b;
+    color: #ffffff;
+    border-radius: 6px;
+    margin-right: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+
 }
 
 /* page commissions */
