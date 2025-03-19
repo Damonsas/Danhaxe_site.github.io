@@ -106,11 +106,12 @@ footer {
 
 .Art {
     width: 100%;
-            height: 600px;
+            height: 800px;
             background-image: url(./ressource/img/krampus.png);
             background-size: cover;
             background-repeat: no-repeat;
             opacity: 80%;
+            padding-top: 40px;
             
 }
 
@@ -189,4 +190,20 @@ li {
 
 .propos h3{
     color: #ccc;
+}
+
+#dev{
+    background-image: url(ressource/img/backdev.png);
+    color: #f7f7f7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+#dev h2{
+    color: #f7f7f7;
+}
+
+#dev h3{
+    color: #f7f7f7;
 }

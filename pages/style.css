@@ -144,7 +144,17 @@ li{
 .sep {
     background-color: rgb(55, 1, 71);
     background: linear-gradient(180deg,rgb(55, 1, 71), #ff3600 100% ) ;
-    padding-bottom: 30px;
+    overflow: hidden;
+    /* padding-bottom: 30px; */
+}
+#tes{
+    background-image: url(../ressource/img/backcv.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    overflow: hidden;
+    background-position: right;
+    opacity: 70%;
+    color: #f7f7f7;
 }
 
 .competence li{
