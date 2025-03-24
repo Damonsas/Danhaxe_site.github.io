@@ -133,14 +133,14 @@ h2{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 .art h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: lighter;
-    margin-left: 3%;
+    margin-left: 5%;
     
 } 
 
@@ -173,7 +173,7 @@ li {
         background-color: #ff4400;
         background-size: cover;
         padding-top: 10px;
-        opacity: 80%;
+        /* opacity: 80%; */
 }
 
 
@@ -202,6 +202,7 @@ li {
 
 #dev h2{
     color: #f7f7f7;
+
 }
 
 #dev h3{
