@@ -97,6 +97,7 @@ footer {
     background-image: url(./ressource/img/03.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 
 }
 
@@ -441,3 +442,9 @@ img {
 .contact-info h2 {
     margin-bottom: 20px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    
+  }
