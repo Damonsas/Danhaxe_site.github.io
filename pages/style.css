@@ -97,7 +97,7 @@ footer {
     background-image: url(./ressource/img/03.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
     position: fixed;
 
 }
