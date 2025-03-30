@@ -31,8 +31,6 @@ body {
     background-image: url(./ressource/img/03.jpg);
     background-size: cover;
     background-position: center;
-    display: block;
-    position: fixed;
 
 }
 
