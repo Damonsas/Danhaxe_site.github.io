@@ -24,9 +24,18 @@ body {
   background-color: #ff3600;
   border-radius: 8px;
   text-align: center;
-  
+}
+
+.banniere {
+    padding: 50px;
+    background-image: url(./ressource/img/03.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: fixed;
 
 }
+
 .footer-basic {
     padding:40px 0;
     background-color:#000000;
@@ -92,15 +101,7 @@ footer {
     clear: both;
 }
 
-.banniere {
-    padding: 50px;
-    background-image: url(./ressource/img/03.jpg);
-    background-size: cover;
-    background-position: center;
-    display: block;
-    position: fixed;
 
-}
 
 .Art {
     width: 100%;
