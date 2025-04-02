@@ -4,6 +4,4 @@ document.querySelector('.menu-toggle').addEventListener('click', () => {
 });
 
 
-<form onsubmit="return false"></form>
-
   
