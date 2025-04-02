@@ -175,7 +175,6 @@ li{
     background-color: rgb(55, 1, 71);
     background: linear-gradient(180deg,rgb(55, 1, 71), #ff3600 100% ) ;
     overflow: hidden;
-    /* padding-bottom: 30px; */
 }
 #tes{
     background-image: url(../ressource/img/backcv.png);
@@ -192,11 +191,11 @@ li{
 .competence li{
     display: block;
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 2rem;
 } 
 .t{
     float: inline-start;
-    margin-right: 3rem;
+    margin-right: 2rem;
     color: #ffffff;
     
     
@@ -215,6 +214,7 @@ li{
 
 .competence h3{
     color: #ffffff;
+    font-size: 3rem;
 }
 h2 {
     clear: both;
@@ -246,7 +246,6 @@ h2 {
     color: #ffffff;
     border-radius: 3px;
     margin-right: 40px;
-    /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); */
 
 }
 
