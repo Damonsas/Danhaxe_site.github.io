@@ -198,15 +198,16 @@ li {
 
 .propos{
     width: 100%;
-        height: auto;
+        height: 40vh;
         background-color: #ff4400;
         background-size: cover;
-        padding: 10px;
+        padding-top: 10px;
 }
 
 
 .propos img{
-    width: 25vw ;
+    width: 16vw ;
+    height: 38vh;
         border: 2px solid #000000 ;
         float: inline-end;
         margin-right: 30px;
