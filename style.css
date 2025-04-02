@@ -9,10 +9,18 @@ body {
 .nav-link li { 
     list-style-type: none;
     padding-left: 30px;
+    margin: 10px;
 }  
 .nav-link {
     display: inline;
     text-align: center;
+}
+.nav-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
 }
 .nav-link a {
   font-size: 40px;
@@ -32,6 +40,11 @@ body {
     background-image: url(./ressource/img/03.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 
 }
 .github{
@@ -209,8 +222,28 @@ li {
     color: #f7f7f7;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
-    /* CSS */
-    
-  }
+@media (max-width: 768px) {
+    .banniere h1 {
+        font-size: 1.5rem;
+    }
+
+    .propos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Art, #dev {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link ul {
+        flex-direction: column;
+    }
+
+    .nav-link li {
+        margin: 5px 0;
+    }
+}
