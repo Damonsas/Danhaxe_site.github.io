@@ -288,9 +288,14 @@ li {
 
 @media (max-width: 480px) {
     .nav-link ul {
+        display: none;
         flex-direction: column;
+        background-color: #f4f4f4;
+        padding: 10px;
     }
-
+    .nav-link ul.active {
+        display: flex;
+    }
     .nav-link li {
         margin: 5px 0;
     }
