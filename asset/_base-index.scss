@@ -1,0 +1,244 @@
+@import "./_mixins";
+@import "./_functions";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4b4b4b;
+
+    header {
+        position: relative;
+        width: 100%; 
+        overflow: hidden; 
+    
+        .banniere{
+            background-image: url(../ressource/img/03.jpg);
+            @include background(); 
+            overflow: hidden; 
+            text-align: center;
+            align-items: center;
+
+        }
+        .banniere.expanded {
+        height: auto; 
+        padding-bottom: 20px; 
+        }    
+        h1{
+                @include text(4rem, white);
+                margin: 0px;
+        }
+        .navbar{
+            display: inline;
+            text-align: center;
+
+            .navbar-toggler{
+                background-color: #A36C5C;
+            }
+
+            .navbar-collapse {
+                width: 100%;
+                padding: 10px;
+            }
+        
+            .navbar-nav {
+                display: flex; 
+                gap: 10px;
+                text-align: center;
+            }
+            ul{
+                @include flex-center();
+                list-style: none;
+                li{
+                    list-style-type: none;
+                    padding-left: 10px;
+                    margin: 10px;
+                    a{
+                        @include text(1rem, white);
+                        text-decoration: none;
+                        background-color: #A36C5C;
+                        @include border-radius(8px);
+                        border: #A36C5C;
+                            &:hover {
+                                background-color: #4a7a8c;
+                                color: white;
+                                padding: 0.5rem;
+                            }
+                    }
+                }
+            }
+        }
+    }
+ 
+    .propos {
+  background-color: #A36C5C;
+  color: white;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    max-width: 250px;
+    border-radius: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+  }
+}
+
+.art {
+  background-color: #5C93A3;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  article {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    h3 {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e2e2e2;
+    }
+  }
+}
+
+#dev {
+  background: linear-gradient(to right, #8F5CA3, #4b4b4b);
+  color: #fff;
+  padding: 4rem 2rem;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+    text-align: center;
+  }
+}
+
+
+    .footer-basic {
+        background-color: black;
+        color: #4b4b4b;
+        padding: 20px;
+        text-align: center;
+    
+        .social {
+            @include flex-center();
+            gap: 20px;
+
+            .copyright{
+                @include text(1rem, white);
+                margin-top: 10px;
+            }
+
+            a {
+                font-size: 24px;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                margin: 0 8px;
+                opacity: 0.75;
+                transition: opacity 0.3s ease;
+    
+                &:hover {
+                    opacity: 1;
+                }
+    
+                &.github {
+                    background-image: url(../ressource/github-mark-white.png);
+                    background-size: 40px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+    
+                &.linkedin {
+                    background-image: url(../ressource/linkedin.png);
+                    background-size: 40px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banniere {
+        height: auto; // Ajuste la hauteur automatiquement
+    }
+
+    .navbar-nav {
+        @include flex-column(); 
+        gap: 10px;
+    }
+
+    .propos {
+        @include flex-column();
+
+
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    #dev {
+       @include flex-column();
+    }
+
+    .footer-basic .social {
+        flex-direction: row;
+        gap: 10px;
+
+        a {
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+        }
+    }
+}

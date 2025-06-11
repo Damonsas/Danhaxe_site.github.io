@@ -1,0 +1,38 @@
+@mixin border-radius($radius){
+    border-radius: $radius;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+@mixin text($size, $color){
+    font-size: $size;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color;
+}
+
+@mixin background(){
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+    width: 100%;
+}
+
+@mixin flex-center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column(){
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin grid-card($cols: 3){
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat($cols, 1fr);
+}

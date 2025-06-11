@@ -5,74 +5,93 @@
     <meta charset="utf-8">
     <title>DANHAXE PROJECT</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <link href="style.css" rel="stylesheet">
-    <script src="./pages/contactform.js"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="./asset/style.css" rel="stylesheet">
+    
     
 </head>
 
 <body>
-        <div class="banniere">
+    <header>
+        <div class="banniere" >
             <h1> Danhaxe </h1>
-            <nav class="nav-link">
-                <button class="menu-toggle">☰</button>
-                <ul>
-                    <li class="nav-link">
-                        <a href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-link"> 
-                        <a href="pages\CV.html">CV</a>
-                    </li>    
-                    <li class="nav-link">  
-                        <a href="pages\Commission.html">Commission</a>
-                    </li>      
-                    <li class="nav-link">    
-                        <a href="pages\Contact.html">Contact</a>
-                    </li>
-                
-                </ul>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/Code.html">Code</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/Commission.html">Graphique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
-    <div class="propos">
-        <img src=".\ressource\img\06.jpg" alt="06">   
-        <h2> À propos de moi </h2>
-            <h3> Salut ! Je suis Danh, sous le pseudonyme Danhaxe ou Damonsas.
-                Je suis un grand passionné de dessin depuis tout petit et très touche à tout.
-                Voici là où je posterai un peu tout mes trucs. </h3>
-        
-    </div> 
+    </header>
+    <section id="home"></section>
+    <main>
+        <section class="propos">
+            <h2>À propos de moi</h2>
+            <img src="./ressource/img/PROFIL-porto.png" alt="Portrait de Danh">
+            <p>
+            Salut ! Je suis Danh, alias Danhaxe ou Damonsas. Passionné de dessin depuis toujours, j’adore créer. Tant que je peux créer, je le ferai !
+            </p>
+        </section>
 
-    <div class="Art" >
-        <h2>Le Dessin</h2>
-        
-            <li >STUCK</li>
-                <h3>Stuck est un manga en deux arc écrit et dessiné par moi. 
-                    Le premier arc est bientôt fini et sera en deux tomes. 
-                </h3>
-            <li >Acceptance</li>
-                <h3>Acceptance est un One-shot en cours d'écricutre</h3>
-            <li >Commission</li>
-                <h3>Quelque exemple de commissions réalisé</h3>
-            <li >Art et painture </li>
-                <h3>Des réalisations fait à part</h3>           
-    </div>
+        <section class="art">
+            <h2>🎨 Mes projets artistiques</h2>
 
-    <div id="dev">
-        <h2>Ma nouvelle passion : le Dev </h2>
-            <h3>Croyez le ou non, mais actuellement vous en voyez les premiers pas.
-                principalement donc actuellement du front-end. 
-            </h3>
-    </div>
+            <article>
+            <h3>STUCK</h3>
+            <p>Un manga en deux arcs, écrit et dessiné par moi. Le premier arc sera divisé en deux tomes.</p>
+            </article>
+
+            <article>
+            <h3>Acceptance</h3>
+            <p>Un one-shot en cours d'écriture mêlant introspection et émotion.</p>
+            </article>
+
+            <article>
+            <h3>Commissions</h3>
+            <p>Voici quelques exemples de commandes réalisées (voir la page dédiée).</p>
+            </article>
+
+            <article>
+            <h3>Art traditionnel & peinture</h3>
+            <p>Quelques réalisations hors commande, faites pour moi ou en expo.</p>
+            </article>
+        </section>
+
+        <section id="dev">
+            <h2>💻 Ma nouvelle passion : le développement</h2>
+            <p>
+            J’ai commencé à apprendre le développement en 2024. Pour moi, c’est un moyen de créer des outils ou des applis utiles. J’aime Go et JavaScript, et j’adore mixer design et code pour proposer des expériences complètes. J’apprends encore, et c’est ça qui me plaît !
+            </p>
+        </section>
+    </main>
 
     <div class="footer-basic">
         <footer>
             <div class="social">   
                 <a class="github" img src=".\ressource\github-mark-white.png" href="https://github.com/Damonsas" target="_blank"> </a>
                 <a class="linkedin" img src=".\ressource\linkedin.png" href="https://www.linkedin.com/in/danh-m-1b2534346/" target="_blank"> </a></div>
-            <p class="copyright">Danhaxe © 2025</p>
+                <p class="copyright">Danhaxe © 2025</p>
+            </div>
         </footer>
     </div>
-
-    
-</body>
+            <script src="./pages/mascotte.js"></script>
+            <script src="./pages/Script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+            
+        </body>
 </html>
