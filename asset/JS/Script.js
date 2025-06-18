@@ -6,6 +6,11 @@ const navToggle = document.querySelector('.nav-toggle');
             navLinks.classList.toggle('active');
         });
 
+        document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+            });
+        });
 
  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
