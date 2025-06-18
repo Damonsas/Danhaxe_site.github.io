@@ -13,84 +13,442 @@
 
 <body>
     <header>
-        <div class="banniere" >
-            <h1> Danhaxe </h1>
-            <nav class="navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/Code.html">Code</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/Commission.html">Graphique</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/Contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo"><h1>Portfolio del Danhaxe </h1></div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
+    </nav>
+        
     </header>
-    <section id="home"></section>
+    <section id="home" class="about">
+        <p class="hero-subtitle">Créateur passionné • Développeur en devenir</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Voir mes projets
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Me contacter
+                </a>
+            </div>
     <main>
-        <section class="propos">
-            <h2>À propos de moi</h2>
+        <div class="propos">
+            <div class ="propos-content">
             <img src="./ressource/img/PROFIL-porto.png" alt="Portrait de Danh">
-            <p>
-            Salut ! Je suis Danh, alias Danhaxe ou Damonsas. Passionné de dessin depuis toujours, j’adore créer. Tant que je peux créer, je le ferai !
+                <div class="about-text fade-in">
+                    <h2>Salut ! Je suis Danh </h2>
+                    <p>
+                        Alias Danhaxe ou Damonsas, je suis un créateur passionné qui jongle entre l'art traditionnel et le numérique. 
+                        Depuis toujours attiré par le dessin, j'ai développé mes compétences dans la création de mangas, 
+                        d'illustrations et de commandes personnalisées.
+                    </p>
+                    <p>
+                        En 2024, j'ai découvert une nouvelle passion : le développement web. Cette discipline me permet 
+                        de créer des outils utiles et de mélanger design et code pour proposer des expériences complètes. 
+                        J'adore Go et JavaScript, et je continue d'apprendre chaque jour !
+                    </p>
+                    <p>
+                        <strong>Ma philosophie :</strong> Tant que je peux créer, je le ferai ! 🎨✨
+                    </p>
+                </div>
+            </div>
+        </div>    
+        </section>
+
+            <section id="projects" class="projects">
+        <div class="projects-container">
+            <h2 class="section-title fade-in">Mes Projets</h2>
+            
+            <div class="projects-grid">
+                <!-- Art Projects -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="project-content">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="./ressource/img/0003 (2).jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/0003 (2).jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/0004.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/0022.jpg" alt="...">
+                                    </div>
+                                    <!-- <div class="carousel-item">
+                                    <img src="./ressource/img/axew rompish.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/haxorus.png" alt="...">
+                                    </div> -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        <h3 class="project-title">STUCK</h3>
+                        <p class="project-description">
+                            Un manga en deux arcs que j'écris et dessine. Le premier arc sera divisé en deux tomes.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Manga</span>
+                            <span class="tag">Storytelling</span>
+                            <span class="tag">Illustration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.mangadraft.com/manga/stuck" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                MangaDraft
+                            </a>
+                            <a href="https://tapas.io/series/STUCK-ed" class="project-link">
+                                <i class="fas fa-globe"></i>
+                                Tapas
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="project-content">
+                       <div id="carouselExample2" class="carousel slide">
+                            <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="./ressource/img/accceptance-prota1.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/prota2.png" alt="...">
+                                    </div>
+                                    <!-- <div class="carousel-item">
+                                    <img src="./ressource/img/05.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/pp theo bg.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/axew rompish.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/haxorus.png" alt="...">
+                                    </div> -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div> 
+                        <h3 class="project-title">Acceptance</h3>
+                        <p class="project-description">
+                            Un one-shot en cours d'écriture mêlant introspection et émotion sur l'acceptation de soi.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">One-shot</span>
+                            <span class="tag">Psychologie</span>
+                            <span class="tag">Art thérapie</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-clock"></i>
+                                Bientôt disponible
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-content">
+                        <div id="carouselExample3" class="carousel slide">
+                            <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="./ressource/img/ServTest01.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/ServTest02.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/ServTest03.png" alt="...">
+                                    </div>
+                                    <!-- <div class="carousel-item">
+                                    <img src="./ressource/img/pp theo bg.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/axew rompish.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/haxorus.png" alt="...">
+                                    </div> -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        <h3 class="project-title">GO-Test-Server-API</h3>
+                        <p class="project-description">
+                            Serveur REST API en Go avec routes, middlewares et handlers pour l'apprentissage du backend.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://go-test-server-api-production.up.railway.app/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="project-content">
+                        <div id="carouselExample4" class="carousel slide">
+                            <div class="carousel-inner">
+                                    <!-- <div class="carousel-item active">
+                                    <img src="./ressource/img/krampus.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/04.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/05.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/pp theo bg.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/axew rompish.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/haxorus.png" alt="...">
+                                    </div> -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        <h3 class="project-title">N'oubliez pas les paroles</h3>
+                        <p class="project-description">
+                            Site interactif avec reconnaissance vocale, base Go + React + MySQL pour chanter et deviner.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Go</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Fullstack</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-wrench"></i>
+                                En développement
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-palette"></i>       
+                        </div>
+                     <div class="project-content"> 
+                            <div id="carouselExample5" class="carousel slide">
+                            <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="./ressource/img/krampus.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/04.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/05.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/pp theo bg.png" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/axew rompish.jpg" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="./ressource/img/haxorus.png" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h3 class="project-title">Commissions Artistiques</h3>
+                            <p class="project-description">
+                                Illustrations personnalisées, portraits et créations graphiques sur mesure pour mes clients.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Digital Art</span>
+                                <span class="tag">Commissions</span>
+                                <span class="tag">Portraits</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="project-link">
+                                    <i class="fas fa-envelope"></i>
+                                    Commander
+                                </a>
+                                <a href="https://www.instagram.com/danhaxe/" class="project-link" target="_blank">
+                                    <i class="fas fa-instagram">Voir sur Instagram fiche Commissions</i>
+                                </a>   
+                            </div>   
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title fade-in">Mes Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Création Artistique</h3>
+                <ul class="skill-list">
+                    <li>Illustration digitale</li>
+                    <li>Manga & BD</li>
+                    <li>Character Design</li>
+                    <li>Art traditionnel</li>
+                    <li>Commissions</li>
+                </ul>
+            </div>
+
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Développement</h3>
+                <ul class="skill-list">
+                    <li>Go / Gin</li>
+                    <li>JavaScript / React</li>
+                    <li>HTML / CSS / SCSS</li>
+                    <li>MySQL</li>
+                    <li>Git / GitHub</li>
+                </ul>
+            </div>
+
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Design & UX</h3>
+                <ul class="skill-list">
+                    <li>UI/UX Design</li>
+                    <li>Prototypage</li>
+                    <li>Design thinking</li>
+                    <li>Storytelling visuel</li>
+                    <li>Identité graphique</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title fade-in">Travaillons Ensemble</h2>
+            <p class="fade-in" style="font-size: 1.2rem; margin-bottom: 2rem;">
+                Prêt pour un nouveau projet ? N'hésitez pas à me contacter !
             </p>
+
+        <section class="contact-form">
+            <div class="form-container">
+                <h3>Vos Informations à joindre que je puisse vous recontacter.</h3>
+                    <form action="https://formspree.io/f/xkgbwrlp" method="POST">
+
+                        <label for="name">Nom: </label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">N° téléphone: </label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="message">Message: </label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit" class="submit-button">Envoi</button>
+                    </form>
+            </div>
         </section>
 
-        <section class="art">
-            <h2>🎨 Mes projets artistiques</h2>
+            <div class="social-links fade-in">
+                <footer>
+                    <a href="https://github.com/Damonsas" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <img src=".\ressource\github-mark-white.png" alt="" style="width: 35px; height: 35px;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/danh-m-1b2534346/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <img src=".\ressource\linkedin.png" alt="" style="width: 35px; height: 35px;">
+                    </a>
+                    <p class="copyright">Danhaxe © 2025</p>
+                </footer>
+                
+            </div>
+        </div>
+    </section>
 
-            <article>
-            <h3>STUCK</h3>
-            <p>Un manga en deux arcs, écrit et dessiné par moi. Le premier arc sera divisé en deux tomes.</p>
-            </article>
-
-            <article>
-            <h3>Acceptance</h3>
-            <p>Un one-shot en cours d'écriture mêlant introspection et émotion.</p>
-            </article>
-
-            <article>
-            <h3>Commissions</h3>
-            <p>Voici quelques exemples de commandes réalisées (voir la page dédiée).</p>
-            </article>
-
-            <article>
-            <h3>Art traditionnel & peinture</h3>
-            <p>Quelques réalisations hors commande, faites pour moi ou en expo.</p>
-            </article>
-        </section>
-
-        <section id="dev">
-            <h2>💻 Ma nouvelle passion : le développement</h2>
-            <p>
-            J’ai commencé à apprendre le développement en 2024. Pour moi, c’est un moyen de créer des outils ou des applis utiles. J’aime Go et JavaScript, et j’adore mixer design et code pour proposer des expériences complètes. J’apprends encore, et c’est ça qui me plaît !
-            </p>
-        </section>
     </main>
 
-    <div class="footer-basic">
-        <footer>
-            <div class="social">   
-                <a class="github" img src=".\ressource\github-mark-white.png" href="https://github.com/Damonsas" target="_blank"> </a>
-                <a class="linkedin" img src=".\ressource\linkedin.png" href="https://www.linkedin.com/in/danh-m-1b2534346/" target="_blank"> </a></div>
-                <p class="copyright">Danhaxe © 2025</p>
-            </div>
-        </footer>
-    </div>
-            <script src="./pages/mascotte.js"></script>
-            <script src="./pages/Script.js"></script>
+            <script src="./asset/JS/mascotte.js"></script>
+            <script src="./asset/JS/Script.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
             
         </body>
