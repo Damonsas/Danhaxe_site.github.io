@@ -357,6 +357,7 @@ body p {
 .skills .skills-grid .skill-category .skill-list {
   list-style: none;
   color: var(--light);
+  display: inline;
 }
 .skills .skills-grid .skill-category .skill-list li {
   padding: 0.5rem 0;

@@ -366,6 +366,7 @@ body{
         .skill-list {
           list-style: none;
           color: var(--light);
+          display: inline;
 
           li {
             padding: 0.5rem 0;
